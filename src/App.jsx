@@ -35,7 +35,7 @@ function App() {
             <div className={Estilo.textDiv}>
 
                     <h1>
-                    FAÇA PARTE DO NOSSO CLUBE
+                    FAÇA PARTE DO NOSSO <p>CLUBE</p> 
                     </h1>
                     <button className={Estilo.btnAderir} onClick={handleClick} >Aderir{"->"}</button>
             </div>
@@ -125,8 +125,9 @@ function App() {
          
           </div>
 
-        <div className={Estilo.formcenter}>
-            <div className={Estilo.FormularioEstrutura}>
+      <div className={Estilo.formcenter}>
+
+        <div className={Estilo.FormularioEstrutura}>
 
           <h2>Efectuar Cadastro para o Clube</h2>
 
@@ -171,7 +172,7 @@ function App() {
             <option value="viuvo">Viúvo(a)</option>
           </select>
           </div>
-          <button> Assinar Contrato</button>
+          <button>Cadastrar</button>
 
           </div>
           

@@ -14,22 +14,16 @@ const  Navbarcomponent =({Clubes,Vendass,Sobres}) =>
         return (
 
             <nav className={Estilo.header}>
-
-                <div className={Estilo.LeftSide}>
-
-                    <div>
-
-                    </div>
-
-                </div>
-
+                
+                <h1>.Company interprise</h1>
                 <div className={Estilo.RightSide}>
-
+                      
                     <div className={Estilo.RightChild} >
 
                         <ul className={Estilo.lists}>
 
                             <li   onClick={ () =>handleClick(Clubes)}>
+                             
                                Clube
                             </li>
 
@@ -37,7 +31,7 @@ const  Navbarcomponent =({Clubes,Vendass,Sobres}) =>
                                 Vedas de apartamentos
                             </li>
 
-                            <li onClick={ () =>handleClick(Sobres)}>
+                            <li className={Estilo.lisobre} onClick={ () =>handleClick(Sobres)}>
                                 Sobre Nós
                             </li>
                         </ul>
